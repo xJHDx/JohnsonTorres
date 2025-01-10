@@ -1,0 +1,18 @@
+export const skillsData = [
+  { key: "skill-html", label: "HTML / CSS", value: 90 },
+  { key: "skill-node", label: "Node JS", value: 85 },
+  { key: "skill-javascript", label: "JavaScript", value: 90 },
+  { key: "skill-angular", label: "Angular", value: 85 },
+  { key: "skill-git", label: "Git", value: 95 },
+  { key: "skill-linux", label: "Linux Server", value: 90 },
+  { key: "skill-database", label: "Base de Datos", value: 85 },
+  { key: "skill-java", label: "Java", value: 85 },
+  { key: "skill-docker", label: "Docker", value: 80 },
+  { key: "skill-kubernetes", label: "Kubernetes", value: 50 },
+  { key: "skill-azure", label: "Azure", value: 60 },
+  { key: "skill-springboot", label: "Spring Boot", value: 80 },
+  { key: "skill-nosql", label: "NoSQL", value: 70 },
+  { key: "skill-scrum", label: "Scrum", value: 85 },
+  { key: "skill-microservices", label: "Microservices", value: 75 },
+  { key: "skill-cloud", label: "Cloud Computing", value: 70 },
+];

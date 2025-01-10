@@ -2,442 +2,379 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
   <title>Johnson Torres</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.1.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
   <!-- ======= Header y nav ======= -->
   <header id="header">
     <div class="d-flex flex-column">
+      <!-- Selector de idioma -->
+      <div class="language-selector">
+        <button class="lang-btn" data-lang="es">
+          <img src="https://flagcdn.com/w40/es.png" alt="Español" class="flag-icon" />
+          <span>Español</span>
+        </button>
+        <button class="lang-btn" data-lang="en">
+          <img src="https://flagcdn.com/w40/gb.png" alt="English" class="flag-icon" />
+          <span>English</span>
+        </button>
+      </div>
+      <!-- Fin del selector de idioma -->
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle" />
         <h1 class="text-light"><a href="index.html">Johnson Torres</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://github.com/xJHDx" class="google-plus" target="_blank"><i class="bi bi-github"></i></a>
-          <a href="https://www.facebook.com/HomeOrbita" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/jhd_torres" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/johnson-duvan-torres-medina-5bb4a6168/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.facebook.com/HomeOrbita" class="facebook" target="_blank"><i
+              class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/jhd_torres" class="instagram" target="_blank"><i
+              class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/johnson-duvan-torres-medina-5bb4a6168/" target="_blank"
+            class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
+      <!-- .nav-menu -->
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#services" class="nav-link scrollto "><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto "><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li>
+            <a href="/" data-target="hero" class="nav-link scrollto active">
+              <i class="bx bx-home"></i> <span data-key="home">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about" data-target="about" class="nav-link scrollto">
+              <i class="bx bx-user"></i> <span data-key="about">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#resume" data-target="resume" class="nav-link scrollto">
+              <i class="bx bx-file-blank"></i>
+              <span data-key="resume">Resume</span>
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" data-target="portfolio" class="nav-link scrollto">
+              <i class="bx bx-book-content"></i>
+              <span data-key="portfolio">Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#services" data-target="services" class="nav-link scrollto">
+              <i class="bx bx-server"></i>
+              <span data-key="services">Services</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" data-target="contact" class="nav-link scrollto">
+              <i class="bx bx-envelope"></i>
+              <span data-key="contact">Contact</span>
+            </a>
+          </li>
         </ul>
-      </nav><!-- .nav-menu -->
-
+      </nav>
+      <!-- .nav-menu -->
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Johnson Torres</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer, Freelancer"></span></p>
+      <h1 data-key="hero-title">Johnson Torres</h1>
+      <p>
+        <span data-key="hero-subtitle">I'm</span>
+        <span class="typed" data-typed-items="Developer, Freelancer"></span>
+      </p>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
 
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
-          <h2>About</h2>
+          <h2 data-key="about-title">About</h2>
         </div>
-        
+
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="perfil" style="border-radius: 15%;">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="perfil" style="border-radius: 15%" />
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Facultad De Ingenieria En Sistemas</h3>
-            <p>Actualmente estudiante de ingeniería de sistemas.<br><br>
+            <h3 data-key="about-heading">
+              Facultad De Ingenieria En Sistemas
+            </h3>
+            <p data-key="about-description">
+              Actualmente estudiante de ingeniería de sistemas.<br /><br />
+              Me destacan mi responsabilidad, dedicación e iniciativa laboral.
+              Tengo actitudes para el trabajo en equipo, adaptable al cambio y
+              resolver problemas de manera eficaz. <br /><br />
+              Conocimientos y experiencia en programación, habilidades con
+              full-stack, servidores, ofimática avanzada, GNU/Linux, Base de
+              datos, redes, mesa de ayuda y manejo de aplicativos
+              empresariales entre otros. Con firmes propósitos de afrontar los
+              compromisos profesionales.
+            </p>
 
-              Me destacan mi responsabilidad, dedicación e iniciativa laboral. Tengo actitudes para el trabajo en equipo, adaptable al cambio y resolver 
-              problemas de manera eficaz. <br><br>
-              
-              Conocimientos y experiencia en programación, habilidades con full-stack, servidores, ofimática avanzada, 
-              GNU/Linux, Base de datos, redes, mesa de ayuda y manejo de aplicativos empresariales entre otros. Con firmes propósitos de afrontar los 
-              compromisos profesionales.</p>
-            
             <div class="row pt-4 pt-lg-50 content">
               <div class="col-lg-6 col align-self-start">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>Orbita.com.co</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Telefono:</strong> <span>+57 310-261-6444</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Ibague, Colombia</span></li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-key="about-website-label">Website:</strong>
+                    <span data-key="about-website">Orbita.com.co</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-key="about-phone-label">Telefono:</strong>
+                    <span data-key="about-phone">+57 310-261-6444</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-key="about-city-label">Ciudad:</strong>
+                    <span data-key="about-city">Ibague, Colombia</span>
+                  </li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Perfil:</strong> <span>Ingeniero</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Correo:</strong> <span>Johnson.Torres.M@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-key="about-profile-label">Perfil:</strong>
+                    <span data-key="about-profile">Ingeniero</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-key="about-email-label">Correo:</strong>
+                    <span data-key="about-email">Johnson.Torres.M@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong data-key="about-freelance-label">Freelance:</strong>
+                    <span data-key="about-freelance">Available</span>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container">
-
         <div class="section-title">
-          <h2>Skills</h2>
-          <p>Habilidades profesionales para la creación de Software</p>
+          <h2 data-key="skills-title">Skills</h2>
+          <p data-key="skills-description">
+            Habilidades profesionales para la creación de Software
+          </p>
         </div>
 
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">HTML / CSS<i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Node JS<i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Angular <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Vue <i class="val">30%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Git <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Linux Serve <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>           
-
-            <div class="progress">
-              <span class="skill">Base de Datos <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>            
-
-            <div class="progress">
-              <span class="skill">Java <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Docker <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Kubernetes <i class="val">20%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Azure <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
+        <div class="row skills-content" id="skills-container">
+          <!-- Las habilidades serán generadas dinámicamente aquí -->
         </div>
-
       </div>
-    </section><!-- End Skills Section -->
+    </section>
+    <!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
-
         <div class="section-title">
-          <h2>Resume</h2>
-          <p></p>
+          <h2 data-key="resume-title">Resume</h2>
+          <p data-key="resume-description"></p>
+        </div>
+        <div class="row" id="resume-container">
+          <!-- El contenido se generará dinámicamente -->
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2 data-key="portfolio-title">Portfolio</h2>
+          <p data-key="portfolio-description">
+            Explora algunos de los proyectos en los que he trabajado a lo largo de mi carrera.
+            Estos proyectos destacan por su calidad técnica y relevancia en diferentes industrias.
+          </p>
+          <a href="/portfolio.html" data-key="portfolio-more-details">Ver más detalles</a>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            
-            <h3 class="resume-title">
-              <i class="bi bi-briefcase"> 
-              </i>Experiencia Laboral</h3>
-
-            <div class="resume-item">
-              <h4>Desarrollador</h4>
-              <h5>2021 - Presente</h5>
-              <p><em>Main Oustsourcing</em></p>
-              <ul>
-                <li>Análisis y desarrollo de software, mantenimiento de aplicaciones</li>
-                <li>Elaborar informes y documentación correspondientes a los desarrollos</li>
-                <li>Capacitar al personal requerido sobre las aplicaciones</li>
-                <li>Efectuar entregas formales de las construcciones de software</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>Tecnico / Ingeniero</h4>
-              <h5>2018 - 2019</h5>
-              <p><em>MicroHome</em></p>
-              <ul>
-                <li>Funciones de monitoreo y configuración de equipos multifuncionales</li>
-                <li>Administración de proyectos</li>
-                <li>Responsable de mantener en óptimas condiciones, emplear y controlar el software de gestión</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>MS Representative off site II</h4>
-              <h5>2016 - 2018</h5>
-              <p><em>Ricoh Colombia</em></p>
-              <ul>
-                <li>Funciones de monitoreo y configuración de proyectos</li>
-                <li>Encargado de mantener en óptimas condiciones los programas y procesos</li>
-                <li>Emplear el Software de gestión para controlar el uso y la solicitud de los mismos</li>
-              </ul>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+            <div class="portfolio-wrap">
+              <div class="portfolio-image">
+                <img src="https://static.orbita.com.co/public/general/images/colsubsidio_icon.png" class="img-fluid"
+                  alt="Project 1" />
+              </div>
+              <div class="portfolio-info">
+                <h4 data-key="portfolio-project1-title">Proyecto 1</h4>
+                <p data-key="portfolio-project1-description">
+                  Desarrollo de una aplicación web para gestión de inventarios
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title"><i class="bi bi-award" width="45" height="45"></i>Educación</h3>
-            <div class="resume-item">
-              <h4>Estudiante de Ingenieria En Sistemas</h4>
-              <h5>2015 - 2019</h5>
-              <p><em>Corporación universitaria Nacional. (CUN)</em></p>
-              <p>(Programación Web ) - (Programación Avanzada) - (Base de Datos SQL ) - (Matemáticas
-                puras) - (Redes) - ( Arquitectura de Software )</p>
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+            <div class="portfolio-wrap">
+              <div class="portfolio-image">
+                <img src="https://static.orbita.com.co/public/general/images/branchos_icon.png" class="img-fluid"
+                  alt="Project 2" />
+              </div>
+              <div class="portfolio-info">
+                <h4 data-key="portfolio-project2-title">Proyecto 2</h4>
+                <p data-key="portfolio-project2-description">
+                  Sistema de monitoreo en tiempo real basado en IoT
+                </p>
+              </div>
             </div>
-            <div class="resume-item">
-              <h4>Técnico en sistemas</h4>
-              <h5>2013 - 2014</h5>
-              <p><em>Servicio Nacional de Aprendizaje - SENA</em></p>
-              <p>(Base de Datos)-(Redes)-(Electrónica) -(Proyectos) - (inglés)- (Ofimática) - (Mantenimiento
-                a Computadores)</p>
-            </div>
+          </div>
 
-            <h3 class="resume-title"> <i class="bi bi-trophy"></i> Otras formaciones/ Certificadas.</h3>
-            <div class="resume-item pb-0">
-              <p><em>Mesa de Ayuda Remoto y Presencial. - Atención al Usuario - Manejo de aplicativos Corporativos 
-                - SLAs. Administración de Servidores.</em></p>
-              <ul>
-                <li>HTML - CSS3 - Google Active</li>
-                <li>JavaScript - Udemy</li>
-                <li>Master JavaScript.(Full-Stack ) En Curso Udemy</li>
-                <li>Lenguaje Base de Datos MySQL</li>
-                <li>Conexiones Con ASP.net - Visual Estudio Azure En Curso Microsoft</li>
-                <li>Producir textos en inglés según contexto y sintaxis del idioma (SENA)</li>
-                <li>Aspectos Fundamentales de redes (Microsoft )</li>
-                <li>AUDITORIA INTERNA DE CALIDAD - NTC ISO 9001 (SENA)</li>
-              </ul>
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+            <div class="portfolio-wrap">
+              <div class="portfolio-image">
+                <img src="https://static.orbita.com.co/public/general/images/gattaca_icon.png" class="img-fluid"
+                  alt="Project 3" />
+              </div>
+              <div class="portfolio-info">
+                <h4 data-key="portfolio-project3-title">Proyecto 3</h4>
+                <p data-key="portfolio-project3-description">
+                  Plataforma de e-commerce con integración de pasarelas de pago
+                </p>
+              </div>
             </div>
-          </div>     
-
+          </div>
         </div>
-
       </div>
-    </section><!-- End Resume Section -->
+    </section>
+    <!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg ac">
+    <section id="services" class="services">
       <div class="container">
-
         <div class="section-title">
-          <h2>Services</h2>
+          <h2 data-key="services-title">sv</h2>
           <p></p>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-stack"></i></div>
-            <h4 class="title"><a href="">Aplicaciones Multi-Plataforma</a></h4>
-            <p class="description">Aplicaciones para Mac, Linux, Windows</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-server"></i></div>
-            <h4 class="title"><a href="">Base de datos</a></h4>
-            <p class="description">Conexión a base de datos, administración de los datos</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-search"></i></div>
-            <h4 class="title"><a href="">Análisis y Marketing</a></h4>
-            <p class="description">Las mejores representantes en marketin Dayan Quijano y Diana Velez</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-clouds-fill"></i></div>
-            <h4 class="title"><a href="">Nube</a></h4>
-            <p class="description">Amazon Web Servise(AWS) - Microsoft Azure - Google Cloud Platafrom </p>
-          </div>        
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-shield-lock-fill"></i></div>
-            <h4 class="title"><a href="">Seguridad</a></h4>
-            <p class="description">Gateway, Athu02, VPN</p>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-tools"></i></div>
-            <h4 class="title"><a href="">Soporte Tecnico</a></h4>
-            <p class="description">Mantenimiento y reparacion de equipos de computo</p>
-          </div>        
-          
+        <div class="row" id="services-container">
+          <!-- El contenido se generará dinámicamente -->
         </div>
-
       </div>
-    </section><!-- End Services Section -->
+    </section>
+    <!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section-bg ac">
       <div class="container">
-
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2 data-key="contact-title">Contact</h2>
         </div>
 
         <div class="row" data-aos="fade-in">
-
           <div class="col-lg-5 d-flex align-items-stretch">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Localicación:</h4>
-                <p>Ibague, Colombia</p>
+                <h4 data-key="contact-location-title">Location:</h4>
+                <p data-key="contact-location-value">Ibague, Colombia</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Correo:</h4>
-                <p>Johnso.Torre.m@gmail.com</p>
+                <h4 data-key="contact-email-title">Email:</h4>
+                <p data-key="contact-email-value">Johnso.Torre.m@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Telefono:</h4>
-                <p>+57 310-261-6444</p>
+                <h4 data-key="contact-phone-title">Phone:</h4>
+                <p data-key="contact-phone-value">+57 310-261-6444</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3978.0265372383165!2d-75.15559146849104!3d4.406135323274634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1685501996671!5m2!1ses!2sco" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3978.0265372383165!2d-75.15559146849104!3d4.406135323274634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1685501996671!5m2!1ses!2sco"
+                frameborder="0" style="border: 0; width: 100%; height: 290px" allowfullscreen></iframe>
             </div>
-
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="form-group col-md-6">                  
-                  <label for="name"><i class="bi bi-person"></i> Nombre</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                <div class="form-group col-md-6">
+                  <label for="name" data-key="contact-name-label"><i class="bi bi-person"></i> Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required />
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name"><i class="bi bi-envelope"></i> Correo</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <label for="email" data-key="contact-email-label"><i class="bi bi-envelope"></i> Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required />
                 </div>
               </div>
-              <div class="form-group">                
-                <label for="name"><i class="bi bi-paperclip"></i>Asunto:</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+              <div class="form-group">
+                <label for="subject" data-key="contact-subject-label"><i class="bi bi-paperclip"></i> Subject:</label>
+                <input type="text" class="form-control" name="subject" id="subject" required />
               </div>
-              <div class="form-group">                
-                <label for="name"><i class="bi bi-chat-text"></i> Mensaje:</label>
+              <div class="form-group">
+                <label for="message" data-key="contact-message-label"><i class="bi bi-chat-text"></i> Message:</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading" data-key="contact-loading">Loading</div>
+                <div class="error-message" data-key="contact-error-message"></div>
+                <div class="sent-message" data-key="contact-sent-message">
+                  Your message has been sent. Thank you!
+                </div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center">
+                <button type="submit" data-key="contact-submit-button">
+                  Send Message
+                </button>
+              </div>
             </form>
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -446,10 +383,13 @@
         &copy; Copyright <strong><span>JHD</span></strong>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer>
+  <!-- End  Footer -->
 
-  <a href="https://wa.me/message/M4A32LYJF5VKE1" class="floatWapp d-flex align-items-center justify-content-center" target="_blank"><i class="bi bi-whatsapp"></i></a>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="https://wa.me/message/M4A32LYJF5VKE1" class="floatWapp d-flex align-items-center justify-content-center"
+    target="_blank"><i class="bi bi-whatsapp"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -463,8 +403,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <script type="module" src="assets/js/main.js"></script>
 </body>
 
 </html>
