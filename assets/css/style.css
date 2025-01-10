@@ -1089,7 +1089,7 @@ section {
 
 .portfolio-container {
   display: flex;
-  gap: 20px; /* Espaciado uniforme entre las tarjetas */
+  gap: 40px; /* Espaciado uniforme entre las tarjetas */
   justify-content: center;
 }
 
