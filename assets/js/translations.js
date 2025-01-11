@@ -79,15 +79,18 @@ export const translations = {
     "portfolio-description":
       "Explora algunos de los proyectos en los que he trabajado a lo largo de mi carrera. Estos proyectos destacan por su calidad técnica y relevancia en diferentes industrias.",
     "portfolio-more-details": "Ver más detalles",
-    "portfolio-project1-title": "Proyecto 1",
+    "portfolio-project-title": "Orbita",
+    "portfolio-project-description":
+      "Desarrollo de un sistema de seguridad con control de roles, despliegues continuos y plataforma modular",
+    "portfolio-project1-title": "Colsubsidio",
     "portfolio-project1-description":
-      "Desarrollo de una aplicación web para gestión de inventarios",
-    "portfolio-project2-title": "Proyecto 2",
+      "Desarrollo de un sistema de ventas y registro de vivienda integrado con SAP, junto con ajustes a aplicaciones escolares",
+    "portfolio-project2-title": "Branchos",
     "portfolio-project2-description":
-      "Sistema de monitoreo en tiempo real basado en IoT",
-    "portfolio-project3-title": "Proyecto 3",
+      "Integración con marketplaces como Mercado Libre, Flamingo y Falabella, además del desarrollo de una app de control de envíos de productos",
+    "portfolio-project3-title": "Gattaca",
     "portfolio-project3-description":
-      "Plataforma de e-commerce con integración de pasarelas de pago",
+      "Desarrollo de un aplicativo basado en microvistas para sistemas de seguros Bancarios",
   },
   en: {
     home: "Home",
@@ -167,13 +170,20 @@ export const translations = {
     "contact-sent-message": "Your message has been sent. Thank you!",
     "contact-submit-button": "Send Message",
     "portfolio-title": "Portfolio",
-    "portfolio-description": "Explore some of the projects I have worked on throughout my career. These projects stand out for their technical quality and relevance in various industries.",
+    "portfolio-description":
+      "Explore some of the projects I have worked on throughout my career. These projects stand out for their technical quality and relevance in various industries.",
     "portfolio-more-details": "See more details",
-    "portfolio-project1-title": "Project 1",
-    "portfolio-project1-description": "Development of a web application for inventory management",
-    "portfolio-project2-title": "Project 2",
-    "portfolio-project2-description": "Real-time monitoring system based on IoT",
-    "portfolio-project3-title": "Project 3",
-    "portfolio-project3-description": "E-commerce platform with payment gateway integration",
+    "portfolio-project-title": "Orbita",
+    "portfolio-project-description":
+      "Development of a security system with role control, continuous deployment, and modular platform",
+    "portfolio-project1-title": "Colsubsidio",
+    "portfolio-project1-description":
+      "Development of a sales and housing registration system integrated with SAP, along with adjustments to school-related applications",
+    "portfolio-project2-title": "Branchos",
+    "portfolio-project2-description":
+      "Integration with marketplaces like Mercado Libre, Flamingo, and Falabella, along with the development of a product shipping control app",
+    "portfolio-project3-title": "Gattaca",
+    "portfolio-project3-description":
+      "Development of a microfrontend application for banking insurance systems",
   },
 };
